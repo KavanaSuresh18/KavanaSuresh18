@@ -1,0 +1,519 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: rgb(34, 8, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: rgb(34, 8, 8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 50px;
+}
+
+/* Left Side Content */
+.content {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.get-started-btn {
+    width: fit-content;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.get-started-btn:hover {
+    background-color: #0056b3;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Resume Apply Page Styling */
+.resume-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+/* Left Half: Resume Upload Section */
+.resume-content {
+    width: 50%;
+    padding: 50px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-content h1 {
+    font-size: 2.5rem;
+    color: #222;
+}
+
+.resume-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resume-content ul li {
+    padding: 5px 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* File Upload & Button */
+input[type="file"] {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #eee;
+    color: #333;
+    cursor: pointer;
+}
+
+#uploadButton {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+#uploadButton:hover {
+    background-color: #0056b3;
+}
+
+/* Right Half: Resume Preview Section */
+.resume-preview {
+    width: 50%;
+    background: #e3e3e3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.resume-preview h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+/* Resume Frame */
+iframe {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Container Layout */
+.page-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Left Section */
+.left-section {
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.get-started-btn {
+    width: fit-content;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.get-started-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Right Section (GIF or Resume Preview) */
+.right-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.right-section img {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+}
+
+/* Resume Upload Page */
+.resume-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.resume-content {
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resume-preview {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e3e3e3;
+}
+
+.resume-preview iframe {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    background: white;
+}
+
+
+.resume-scan-wrapper {
+    position: relative;
+    width: 100%;
+    height: 90%;
+}
+
+#resumeFrame {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#scannerLine {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: limegreen;
+    top: 0;
+    left: 0;
+    display: none;
+    animation: scanDown 2s linear forwards;
+    z-index: 1;
+}
+
+@keyframes scanDown {
+    0% { top: 0; }
+    100% { top: 100%; }
+}
+
+#scanMessage {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
+
+
+
+.question-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.question-section {
+    width: 50%;
+    padding: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#question-text {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+#nextQuestionBtn {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#nextQuestionBtn:hover {
+    background-color: #0056b3;
+}
+
+.robot-section {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.robot-sprite {
+    width: 300px;
+    height: auto;
+    filter: brightness(1.1) contrast(1.2);
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+
+.robot-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-left: 2px solid black; /* Right half framed by black border */
+}
+
+/* Top Half: Robot Display */
+.robot-wrapper {
+    height: 50%;
+    overflow: hidden; /* Crop bottom part */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+/* Crop styling for robot image */
+.robot-sprite {
+    height: 90%; 
+    width: 100%;      /* Adjust height to avoid overflow */
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white; /* Maintain aspect ratio */
+}
+
+/* Black divider line between robot and camera */
+
+
+/* Bottom Half: Camera Display */
+.camera-wrapper {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#cameraFeed {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+
+
+
+/* Chat Section */
+.chat-header {
+    background-color: #075e54;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.chat-area {
+    flex: 1;
+    width: 100%;
+    background-color: #ece5dd;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+/* Message bubbles */
+.user-message, .interviewer-message {
+    max-width: 60%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 1rem;
+    word-wrap: break-word;
+}
+
+.user-message {
+    background-color: #dcf8c6;
+    align-self: flex-start;
+}
+
+.interviewer-message {
+    background-color: #ffffff;
+    align-self: flex-end;
+}
+
+.chat-header {
+    background-color: #075e54;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px 20px;           /* Balanced left-right padding */
+    width: 100%;
+    text-align: left;
+    border-radius: 10px 10px 0 0;
+    box-sizing: border-box;       /* Ensures it fits inside container without overflow */
+}
+
+.chat-controls {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.chat-controls input[type="text"] {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: #f0f0f0;
+}
+
+.chat-controls button {
+    width: 45px;
+    height: 45px;
+    font-size: 1.5rem;
+    background-color: #075e54;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-controls button:hover {
+    background-color: #064e46;
+    transform: scale(1.1);
+}
+
+
+#sendButton img {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+/* NEW chat box wrapper with solid outer border */
+.chat-box {
+    border: 2px solid brown; /* Changed from black to brown */
+    width: 100%;             /* Ensures header and box align perfectly */
+    box-sizing: border-box;  /* Prevents overflow from padding/border */
+  }
+  
+  .chat-header {
+    background-color: #075e54;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    width: 100%;             /* Match the chat box width */
+    box-sizing: border-box;  /* Aligns with parent width correctly */
+  }
+  

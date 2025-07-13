@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Generation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="question-container">
+        <!-- Left: Question Section -->
+        <!-- Left: Interviewer Chat Section -->
+<div class="question-section">
+    <!-- Top Bar -->
+    <div class="chat-header">
+        Interviewer
+    </div>
+
+    <!-- Chat Area -->
+    <div class="chat-area" id="chatArea">
+        <!-- Messages will appear dynamically here -->
+    </div>
+
+    <!-- Bottom Controls -->
+    <div class="chat-controls">
+        <button id="cameraButton">📷</button>
+    
+        <input type="text" id="textInput" placeholder="Type a message" />
+    
+        <button id="micButton">🎤</button>
+        <button id="sendButton" style="display: none; background: none; border: none;">
+            <img src="assets/send-icon.png" alt="Send" style="width: 30px; height: 30px;">
+        </button>
+        
+    
+        <input type="file" id="fileInput" style="display:none" accept="image/*,application/pdf">
+    </div>
+    
+</div>
+
+
+        
+        <!-- Right: Robot + Camera Section -->
+        <div class="robot-section">
+            <!-- Robot Area -->
+            <div class="robot-wrapper">
+                <img src="assets/robot.png" class="robot-sprite" alt="Robot Assistant">
+            </div>
+
+            <!-- Divider Line -->
+            <div class="divider-line"></div>
+
+            <!-- Camera Area -->
+            <div class="camera-wrapper">
+                <video id="cameraFeed" autoplay playsinline muted></video>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

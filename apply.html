@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="resume-container">
+        <!-- Left Half: Resume Upload Section -->
+        <div class="resume-content">
+            <h1>Apply for Resume</h1>
+            <p>Your resume is the key to your interview success. Ensure it contains the following:</p>
+            <ul>
+                <li>✅ Full Name, Email, and Contact Information</li>
+                <li>✅ Work Experience with roles and responsibilities</li>
+                <li>✅ Educational Background</li>
+                <li>✅ Technical and Soft Skills</li>
+                <li>✅ Projects and Achievements</li>
+                <li>✅ Certifications and Additional Training</li>
+            </ul>
+            <input type="file" id="resumeUpload" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png">
+`
+            <button id="uploadButton">Upload Resume</button>
+        </div>
+
+        <!-- Right Half: Resume Preview Section -->
+        <div class="resume-preview" id="resumePreview">
+            <h2>Resume Preview</h2>
+            <div class="resume-scan-wrapper">
+                <iframe id="resumeFrame" src="" frameborder="0"></iframe>
+                <div id="scannerLine"></div>
+            </div>
+            <div id="scanMessage"></div>
+        </div>
+        
+    </div>
+
+    <!-- Link External JavaScript -->
+    <script src="script.js"></script>
+
+
+    
+
+    <div id="resume-upload"></div>
+
+
+
+</body>
+</html>
